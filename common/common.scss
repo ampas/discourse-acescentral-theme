@@ -30,7 +30,7 @@
 }
 
 // improve rendering of "inline code" markup
-p > code, li > code, pre {
+p > code, li > code, pre:not(.codeblock-buttons) {
 	margin: 0px 2px 0px 2px;
 	padding: 0px 5px 0px 5px;
 	background: var(--primary-very-low);
